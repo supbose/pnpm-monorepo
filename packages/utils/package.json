@@ -1,0 +1,10 @@
+{
+    "name": "@supbose-pnpm/utils",
+    "private":true,
+    "version": "0.0.1",
+    "description": "utils is a utility",
+    "author": "supbose",
+    "license":"MIT",
+    "main": "./src/index.ts"
+
+}

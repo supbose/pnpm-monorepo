@@ -1,0 +1,14 @@
+{
+    "name": "@supbose-pnpm/web",
+    "private": true,
+    "version": "0.0.1",
+    "description": "this is a web",
+    "author": "supbose",
+    "license": "MIT",
+    "scripts": {
+        "debug": "ts-node ./src/index.ts"
+    },
+    "devDependencies": {
+        "@supbose-pnpm/utils": "workspace:^0.0.1"
+    }
+}
