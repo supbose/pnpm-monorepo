@@ -10,7 +10,7 @@
     "format": "prettier --config .prettierrc . --write",
     "format-watch": "onchange -d 1000 '**/*' -- prettier --config .prettierrc --write {{changed}}",
     "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
-    "git": "pnpm format && git add . && pnpm cz"
+    "git": "pnpm format && git add . && pnpm cz && git push"
   },
   "keywords": [],
   "author": "",
