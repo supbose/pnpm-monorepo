@@ -9,7 +9,8 @@
     "lint": "eslint ./ --ext .ts,.js,.json --max-warnings=0 --no-error-on-unmatched-pattern",
     "format": "prettier --config .prettierrc . --write",
     "format-watch": "onchange -d 1000 '**/*' -- prettier --config .prettierrc --write {{changed}}",
-    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}"
+    "prettier-watch": "onchange \"**/*\" -- prettier --write --ignore-unknown {{changed}}",
+    "git": "pnpm format && git add . && pnpm cz"
   },
   "keywords": [],
   "author": "",
