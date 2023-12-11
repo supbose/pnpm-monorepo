@@ -1,66 +1,61 @@
 {
   "path": "cz-conventional-changelog",
-  "defaultType": "[新增功能]",
+  "defaultType": "feat",
   "types": {
-    "[新增功能]": {
+    "feat": {
       "description": "新增功能点、新增需求",
-      "title": "Features"
+      "title": "Features",
+      "emoji": "✨"
     },
-    "[Bug修复]": {
+    "fix": {
       "description": "修复Bug,线上，测试，验收阶段的bug",
-      "title": "Bug Fixes"
+      "title": "Bug Fixes",
+      "emoji": "🐛"
     },
-    "[文档修改]": {
+    "docs": {
       "description": "文档增删改",
-      "title": "Documentation"
+      "title": "Documentation",
+      "emoji": "📚"
     },
-    "[样式修改]": {
+    "style": {
       "description": "样式修改(空白、格式、缺少分号等)",
-      "title": "Styles"
+      "title": "Styles",
+      "emoji": "💎"
     },
-    "[代码重构]": {
+    "refactor": {
       "description": "既不修复bug也不添加新功能的更改",
-      "title": "Code Refactoring"
+      "title": "Code Refactoring",
+      "emoji": "📦"
     },
-    "[性能优化]": {
+    "perf": {
       "description": "性能优化",
-      "title": "Performance Improvements"
+      "title": "Performance Improvements",
+      "emoji": "🚀"
     },
-    "[测试代码]": {
+    "test": {
       "description": "增加测试",
-      "title": "Tests"
+      "title": "Tests",
+      "emoji": "🚨"
     },
-    "[编译代码]": {
+    "build": {
       "description": "影响构建系统或外部依赖项的更改(示例范围:gulp、broccoli、npm)",
-      "title": "Builds"
+      "title": "Builds",
+      "emoji": "🛠"
     },
-    "[持续集成]": {
+    "ci": {
       "description": "对CI配置文件和脚本的更改(示例范围:Travis, Circle, BrowserStack, SauceLabs)",
-      "title": "Continuous Integrations"
+      "title": "Continuous Integrations",
+      "emoji": "⚙️"
     },
-    "[其他提交]": {
-      "description": "除src目录或测试文件以外的修改",
-      "title": "Chores"
+    "chore": {
+      "description": "其他提交,除src目录或测试文件以外的修改",
+      "title": "Chores",
+      "emoji": "♻️"
     },
-    "[回退更改]": {
+    "revert": {
       "description": "回退历史版本",
-      "title": "Reverts"
-    },
-    "[修改冲突]": {
-      "description": "修改冲突",
-      "title": "Conflict"
-    },
-    "[字体修改]": {
-      "description": "字体文件更新",
-      "title": "Fonts"
-    },
-    "[删除文件]": {
-      "description": "删除文件",
-      "title": "Delete Files"
-    },
-    "[暂存文件]": {
-      "description": "暂存文件",
-      "title": "Stash Files"
+      "title": "Reverts",
+      "emoji": "🗑"
     }
   }
 }
