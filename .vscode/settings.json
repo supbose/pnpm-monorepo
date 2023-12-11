@@ -19,5 +19,7 @@
     "editor.formatOnSaveMode": "file",
     "editor.formatOnType": true,
     "editor.formatOnPaste": false
-  }
+  },
+  "terminal.explorerKind": "integrated",
+  "autoHeader": {}
 }
