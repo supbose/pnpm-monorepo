@@ -1,9 +1,10 @@
 {
   "name": "@supbose-pnpm/root",
-  "version": "0.0.3",
+  "version": "0.0.4-beta.0",
   "description": "欢迎使用云效代码管理 Codeup，通过阅读以下内容，你可以快速熟悉 Codeup ，并立即开始今天的工作。",
   "main": "index.js",
   "scripts": {
+    "bumpp": "pnpm exec bumpp -r -w",
     "prepare": "husky install",
     "cz": "cz",
     "lint": "eslint ./ --ext .ts,.js,.json --max-warnings=0 --no-error-on-unmatched-pattern",
@@ -21,6 +22,7 @@
     "@types/node": "^20.10.4",
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
+    "bumpp": "^9.2.1",
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^8.55.0",
