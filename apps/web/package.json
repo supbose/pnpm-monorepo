@@ -1,7 +1,7 @@
 {
   "name": "@supbose-pnpm/web",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "this is a web",
   "author": "supbose",
   "license": "MIT",
