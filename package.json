@@ -1,6 +1,6 @@
 {
   "name": "@supbose-pnpm/root",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "欢迎使用云效代码管理 Codeup，通过阅读以下内容，你可以快速熟悉 Codeup ，并立即开始今天的工作。",
   "main": "index.js",
   "scripts": {
