@@ -19,7 +19,7 @@
     "codeup",
     "codeup-cli"
   ],
-  "author": "",
+  "author": "supbose",
   "license": "MIT",
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
